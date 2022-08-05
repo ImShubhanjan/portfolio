@@ -1,0 +1,114 @@
+.container {
+  display: block;
+  width: 80%;
+  margin: 100px auto;
+}
+
+.heading {
+  margin-bottom: 50px;
+  letter-spacing: 7px;
+  border-bottom: 2.5px solid rgb(174, 245, 214);
+  text-transform: uppercase;
+}
+
+.form-input {
+  border: 2px solid rgb(57, 195, 237);
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+  padding: 1rem;
+  margin: 13px 13px;
+  background: none;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  width: 22rem;
+}
+
+.textarea-input {
+  border: 2px solid rgb(57, 195, 237);
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1.5rem;
+  outline: none;
+  /* position: relative; */
+  /* margin: 13px 13px; */
+  /* margin-right: 2rem; */
+  background: none;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+input:hover,
+textarea:hover {
+  border-color: rgb(231, 104, 165);
+}
+
+input:focus,
+textarea:focus {
+  border-color: rgb(231, 104, 165);
+}
+
+.form-label {
+  position: relative;
+  left: -15rem;
+  top: -0.2rem;
+  padding: 0 0.5rem;
+  color: brown;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  background-color: white;
+}
+.textarea-label {
+  position: relative;
+  left: -20rem;
+  top: -7.5rem;
+  padding: 0 0.1rem;
+  color: brown;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  background-color: white;
+  
+}
+
+.contact-form {
+  display: block;
+  margin: 2rem 4rem 6rem 18.5rem;
+}
+
+.textarea-div {
+  margin-left: -3.5rem;
+  margin-top: 1.2rem;
+}
+
+.form-input:focus ~ .form-label,
+.form-input:not(:placeholder-shown).form-input:not(:focus) ~ .form-label {
+  top: -1.9rem;
+  font-size: 0.8rem;
+}
+
+.textarea-input:focus ~ .textarea-label, 
+.textarea-input:not(:placeholder-shown).textarea-input:not(:focus) ~ .textarea-label {
+  top: -12rem;
+  font-size: 0.8rem;
+}
+
+.btn-blue {
+  margin: 2rem 8rem;
+  /* border: none; */
+  /* background: none; */
+  color: black;
+
+}
+
+/* .btn-blue::before{
+  border: 8px solid transparent;
+  content: '';
+  background-color:darkkhaki;
+  bottom: 0;
+  left: 0;
+}
+
+.btn-blue:hover::before {
+  height: 100px;
+  width: 320px;
+  border: 8px solid black;
+} */

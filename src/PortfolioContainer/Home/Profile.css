@@ -16,6 +16,7 @@
 .mail-btn {
   border: 1px solid white;
   color: rgb(122, 240, 250);
+  font-size: 13px;
 }
 .mail-btn:hover {
   color: azure;

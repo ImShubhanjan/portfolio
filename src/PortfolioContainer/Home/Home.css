@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@800&display=swap');
+
+
 .home-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 450px;
   background-image: url(../../assets/Home/bg.jpg);
+}
+
+footer {
+  color: rgb(6, 9, 96);
+  font-weight: 500;
+  background-color: white;
+  text-align: center;
+  height: 45px;
+  font-family: 'Cormorant SC', serif;
+  font-size: 22px;  
 }

@@ -17,6 +17,9 @@ export default function Profile() {
               <a href="https://www.instagram.com/the_shubhanjan_official/">
                 <i className="fa fa-instagram"></i>
               </a>
+              <a href="https://github.com/ImShubhanjan">
+                <i className="fa fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="profile-details-name">
@@ -48,7 +51,7 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-options">
-              <button className="btn mail-btn"> Mail Me </button>
+            <button className="btn mail-btn"> Mail Me </button>
             <a href="NewResumeUpdated5.pdf" download="ShubhanjanResume.pdf">
               <button className="btn highlighted-btn"> Download Resume </button>
             </a>
