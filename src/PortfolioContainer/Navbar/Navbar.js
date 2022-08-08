@@ -1,7 +1,7 @@
 import React from "react";
 import About from '../AboutMe/About';
 import "./Navbar.css";
-import {Link} from 'react-router-dom';
+// import {BrowserRouter as Router, Route, Link, NavLink, Switch} from "react-router-dom";
 export default function Navbar() {
   return (
     <nav>

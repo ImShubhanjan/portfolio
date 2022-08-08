@@ -1,7 +1,7 @@
 .container {
   display: block;
   width: 80%;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 .heading {
@@ -9,9 +9,47 @@
   letter-spacing: 7px;
   border-bottom: 2.5px solid rgb(174, 245, 214);
   text-transform: uppercase;
+  font-family: "Padauk", sans-serif;
 }
 
-.form-input {
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  
+}
+
+.btn-blue {
+  /* display: flex;
+  flex-direction: column; */
+  padding: 1rem;
+  /* border: none; */
+}
+.btn-send {
+  border-radius: 2rem;
+  background: linear-gradient(to right, rgb(236, 231, 85), rgb(236, 82, 30));
+  /* border: 2px solid black; */
+  border: none;
+  transition: all 0.5s ease-in-out;
+  height: 3rem;
+  width: 10rem;
+}
+
+.btn-send:hover {
+  background: linear-gradient(to left, rgb(228, 224, 82), rgb(236, 82, 30));
+}
+footer {
+  color: rgb(86, 230, 233);
+  font-weight: 500;
+  text-align: center;
+  height: 45px;
+  font-family: "Cormorant SC", serif;
+  font-size: 22px;
+  background-color: black;
+}
+
+/*.form-input {
   border: 2px solid rgb(57, 195, 237);
   font-family: inherit;
   font-size: inherit;
@@ -30,9 +68,9 @@
   font-size: inherit;
   padding: 1.5rem;
   outline: none;
-  /* position: relative; */
-  /* margin: 13px 13px; */
-  /* margin-right: 2rem; */
+  position: relative; */
+/* margin: 13px 13px; */
+/* margin-right: 2rem;
   background: none;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
@@ -70,8 +108,9 @@ textarea:focus {
 }
 
 .contact-form {
-  display: block;
+  position: relative;
   margin: 2rem 4rem 6rem 18.5rem;
+  align-items: center;
 }
 
 .textarea-div {
@@ -94,10 +133,10 @@ textarea:focus {
 .btn-blue {
   margin: 2rem 8rem;
   /* border: none; */
-  /* background: none; */
-  color: black;
+/* background: none; */
+/* color: black;
 
-}
+} */
 
 /* .btn-blue::before{
   border: 8px solid transparent;
@@ -112,3 +151,14 @@ textarea:focus {
   width: 320px;
   border: 8px solid black;
 } */
+
+@media (max-width: 987px) {
+  .contact-form {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    text-align: center;
+  }
+}
