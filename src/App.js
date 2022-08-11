@@ -6,8 +6,8 @@ import Contact from "./PortfolioContainer/ContactMe/Contact";
 function App() {
   return <div className="App">
     {/* <Home /> */}
-    {/* <About /> */}
-    <Contact />
+    <About />
+    {/* <Contact /> */}
   </div>;
 }
 
